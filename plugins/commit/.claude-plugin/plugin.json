@@ -1,0 +1,5 @@
+{
+  "name": "commit",
+  "description": "ステージされた変更をコミットする。コミットメッセージはcommit-messageスキルで自動生成する",
+  "version": "1.0.0"
+}

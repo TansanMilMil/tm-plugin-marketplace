@@ -1,0 +1,5 @@
+{
+  "name": "commit-message",
+  "description": "ステージされたgit diffから適切なコミットメッセージを生成する",
+  "version": "1.0.0"
+}

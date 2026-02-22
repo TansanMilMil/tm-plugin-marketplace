@@ -1,0 +1,37 @@
+{
+  "name": "tm-plugins",
+  "owner": {
+    "name": "d002376"
+  },
+  "metadata": {
+    "description": "Team skills for Claude Code",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "commit",
+      "source": "./plugins/commit",
+      "description": "ステージされた変更をコミット"
+    },
+    {
+      "name": "commit-message",
+      "source": "./plugins/commit-message",
+      "description": "コミットメッセージ自動生成"
+    },
+    {
+      "name": "review-code",
+      "source": "./plugins/review-code",
+      "description": "コード差分からPRの説明文を生成"
+    },
+    {
+      "name": "pr-description",
+      "source": "./plugins/pr-description",
+      "description": "コード差分からプルリクエストの説明文を生成"
+    },
+    {
+      "name": "generate-class-diagram-java",
+      "source": "./plugins/generate-class-diagram-java",
+      "description": "Javaクラス/インターフェースの依存関係図をMermaid記法で生成"
+    }
+  ]
+}

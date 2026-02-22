@@ -1,0 +1,14 @@
+---
+name: commit
+description: "ステージされた変更をコミットする。コミットメッセージはcommit-messageスキルで自動生成する"
+allowed-tools: Bash, AskUserQuestion, Skill
+---
+
+# Rules
+
+- `git diff --staged` を実行してステージ済みの差分を確認してください。
+- ステージされた変更がなければ「ステージされた変更がありません。`git add` でファイルをステージしてください。」と通知して終了してください。
+- `commit-message` スキルを呼び出してコミットメッセージを生成してください。
+- 生成したコミットメッセージで即座に `git commit -m "<message>"` を実行してください。
+- コミットが失敗した場合（pre-commit hook 等）はエラー内容をユーザーに伝えて終了してください。
+- コミット完了後、`git log --oneline -1` でコミット結果を表示してください。

@@ -1,0 +1,5 @@
+{
+  "name": "generate-class-diagram-java",
+  "description": "Javaクラス/インターフェースの依存関係図をMermaid flowchart記法で生成する",
+  "version": "1.0.0"
+}

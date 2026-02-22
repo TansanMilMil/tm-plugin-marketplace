@@ -1,0 +1,5 @@
+{
+  "name": "pr-description",
+  "description": "コード差分からプルリクエストの説明文を生成する",
+  "version": "1.0.0"
+}
