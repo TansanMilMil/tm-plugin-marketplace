@@ -3,6 +3,7 @@ name: review-code
 description: "コード差分に対してシニアエンジニア視点のコードレビューを行う"
 argument-hint: "[git-ref 例: main...HEAD]"
 allowed-tools: Read, Glob, Grep, Bash, AskUserQuestion
+context: fork
 ---
 
 # Rules
